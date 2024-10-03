@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdcfcd;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lead {
+    color: white;
+}
+
+.nav-link, .dropdown-item {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240329/pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.filter-icon {
+    text-align: center;
+}
+
+.filter-icon i {
+    display: block; 
+    margin: 0 auto;
+}
+
+.filter-icon h5 {
+    margin-top: 10px;
+}
+
+footer {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-img-top {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
